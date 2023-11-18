@@ -1,8 +1,7 @@
 body {
       /* background-color: white; */
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      padding: 0%;
+      margin: 0%;
       font-family: 'Montserrat', sans-serif;
 }
 
@@ -96,3 +95,12 @@ body {
 .carousel-control-next-icon {
       filter: invert(100%);
 }
+
+.features .right-half{
+      background-color: #d7d4d4;;
+}
+.features .left-half .down-half{
+      background-color: #EDEDED
+}
+
+

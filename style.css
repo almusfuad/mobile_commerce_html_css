@@ -103,4 +103,79 @@ body {
       background-color: #EDEDED
 }
 
+.browse-by-category .upper-section .arrow-buttons .left-arrow,
+.browse-by-category .upper-section .arrow-buttons .right-arrow
+{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+}
 
+.browse-by-category .lower-section .categories {
+      width: 160px;
+      height: 128px;
+      min-width: 135px;
+      padding: 24px 52px;
+      gap: 8px;
+      border-radius: 15px;
+      background-color: #EDEDED;
+}
+
+.browse-by-category .lower-section .categories .category-name {
+      color: var(--main-black, #000);
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+}
+
+.product-card .lower-section .image{
+      width: 160px;
+      height: 160px;
+}
+
+.product-card .lower-section .product-details{
+      min-width: 200px;
+      padding: 24px 16px;
+      gap: 16px;
+      flex: 1 0 0;
+      border-radius: 9px;
+      background: #f6f6f6;
+}
+
+.product-card .upper-section .product-age{
+      color: #8B8B8B;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px;
+}
+
+.product-card .upper-section .product-age.active{
+      color: var(--main-black, #000);
+      
+}
+
+.product-card .lower-section .product-details .description-section{
+      align-self: stretch;
+      color: var(--main-black, #000);
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+}
+
+.product-age{
+      list-style: none;
+      display: flex;
+      margin: 0 ;
+      padding: 0;
+}
